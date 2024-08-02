@@ -11,7 +11,7 @@ public class GCDComparison {
         GCD1.gcd(a, b);
 
         Instant finish1 = Instant.now();
-        long timeElapsed1 = Duration.between(start1, finish1).toMillies();
+        long timeElapsed1 = Duration.between(start1, finish1).toMillis();
         System.out.println("GCD1 time: " + timeElapsed1 + " ms");
 
         //Timing GCD2
@@ -19,5 +19,6 @@ public class GCDComparison {
         GCD2.gcd(a, b);
         Instant finish2 = Instant.now();
         long timeElapsed2 = Duration.between(start2, finish2).toMillis();
+        System.out.println("GCD2 time: " + timeElapsed2 + " ms");
     }
 }
