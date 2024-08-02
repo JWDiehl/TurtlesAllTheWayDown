@@ -24,6 +24,6 @@ public class LCS {
     public static void main (String[] args) {
         String x = "ABCDJSJS";
         String y = "JDJDSJSJSJ";
-        System.out.println("LCS: " + lcs(x, y)); // out put JSJS
+        System.out.println("LCS: " + lcs(x, y)); // out put DJSJS
     }
 }

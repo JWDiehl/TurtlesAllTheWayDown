@@ -9,7 +9,7 @@ public class LCSTest {
         String x = "ABCDJSJS";
         String y = "JDJDSJSJSJ";
 
-        String expected = "JSJS";
+        String expected = "DJSJS";
         String actual = LCS.lcs(x, y);
         assertEquals(expected, actual);
     }
